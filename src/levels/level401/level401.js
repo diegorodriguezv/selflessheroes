@@ -1,4 +1,5 @@
 import map from './map401.json'
+import deMessages from './level401-messages-de.json'
 import enMessages from './level401-messages-en.json'
 import frMessages from './level401-messages-fr.json'
 
@@ -45,6 +46,7 @@ const wrongFloorCellCondition = {
 const level = {
   mapConfig: map,
   messages: {
+    de: deMessages,
     en: enMessages,
     fr: frMessages
   },

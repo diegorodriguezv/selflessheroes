@@ -1,4 +1,5 @@
 import map from './map311.json'
+import deMessages from './level311-messages-de.json'
 import enMessages from './level311-messages-en.json'
 import frMessages from './level311-messages-fr.json'
 
@@ -57,6 +58,7 @@ const notSameTimeLossCondition = {
 const level = {
   mapConfig: map,
   messages: {
+    de: deMessages,
     en: enMessages,
     fr: frMessages
   },

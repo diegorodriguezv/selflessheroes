@@ -1,4 +1,5 @@
 import map from './map214.json'
+import deMessages from './level214-messages-de.json'
 import enMessages from './level214-messages-en.json'
 import frMessages from './level214-messages-fr.json'
 
@@ -49,6 +50,7 @@ const wrongEggOrderCondition = {
 const level = {
   mapConfig: map,
   messages: {
+    de: deMessages,
     en: enMessages,
     fr: frMessages
   },

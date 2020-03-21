@@ -1,4 +1,5 @@
 import map from './map302.json'
+import deMessages from './level302-messages-de.json'
 import enMessages from './level302-messages-en.json'
 import frMessages from './level302-messages-fr.json'
 
@@ -90,6 +91,7 @@ const wrongOrderLossCondition = {
 const level = {
   mapConfig: map,
   messages: {
+    de: deMessages,
     en: enMessages,
     fr: frMessages
   },

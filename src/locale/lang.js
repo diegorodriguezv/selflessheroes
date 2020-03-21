@@ -3,13 +3,15 @@ import {
   getUserLocales
 } from 'get-user-locale'
 
+import deMessages from './messages-de.json'
 import enMessages from './messages-en.json'
 import frMessages from './messages-fr.json'
 
 const messages = {
   default: 'en',
-  supportedLanguages: ['en', 'fr'],
+  supportedLanguages: ['de', 'en', 'fr'],
 
+  'de': deMessages,
   'en': enMessages,
   'fr': frMessages
 }

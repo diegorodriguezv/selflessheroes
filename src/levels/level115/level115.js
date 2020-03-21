@@ -1,4 +1,5 @@
 import map from './map115.json'
+import deMessages from './level115-messages-de.json'
 import enMessages from './level115-messages-en.json'
 import frMessages from './level115-messages-fr.json'
 
@@ -32,6 +33,7 @@ const eggInHoleLossCondition = {
 const level = {
   mapConfig: map,
   messages: {
+    de: deMessages,
     en: enMessages,
     fr: frMessages
   },

@@ -1,4 +1,5 @@
 import map from './map407.json'
+import deMessages from './level407-messages-de.json'
 import enMessages from './level407-messages-en.json'
 import frMessages from './level407-messages-fr.json'
 
@@ -45,6 +46,7 @@ const tooMuchHeroesCondition = {
 const level = {
   mapConfig: map,
   messages: {
+    de: deMessages,
     en: enMessages,
     fr: frMessages
   },

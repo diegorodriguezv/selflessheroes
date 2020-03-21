@@ -1,4 +1,5 @@
 import map from './map305.json'
+import deMessages from './level305-messages-de.json'
 import enMessages from './level305-messages-en.json'
 import frMessages from './level305-messages-fr.json'
 
@@ -39,6 +40,7 @@ const wrongEggInCauldronLossCondition = {
 const level = {
   mapConfig: map,
   messages: {
+    de: deMessages,
     en: enMessages,
     fr: frMessages
   },

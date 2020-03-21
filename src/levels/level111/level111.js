@@ -1,4 +1,5 @@
 import map from './map111.json'
+import deMessages from './level111-messages-de.json'
 import enMessages from './level111-messages-en.json'
 import frMessages from './level111-messages-fr.json'
 
@@ -59,6 +60,7 @@ const tookLabelEggLossCondition = {
 const level = {
   mapConfig: map,
   messages: {
+    de: deMessages,
     en: enMessages,
     fr: frMessages
   },

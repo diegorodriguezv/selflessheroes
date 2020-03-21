@@ -1,4 +1,5 @@
 import map from './map013.json'
+import deMessages from './level013-messages-de.json'
 import enMessages from './level013-messages-en.json'
 import frMessages from './level013-messages-fr.json'
 
@@ -58,6 +59,7 @@ const movedOfTheCrossLossCondition = {
 const level = {
   mapConfig: map,
   messages: {
+    de: deMessages,
     en: enMessages,
     fr: frMessages
   },

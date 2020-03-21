@@ -1,4 +1,5 @@
 import map from './map308.json'
+import deMessages from './level308-messages-de.json'
 import enMessages from './level308-messages-en.json'
 import frMessages from './level308-messages-fr.json'
 
@@ -57,6 +58,7 @@ const worldGenerator = {
 const level = {
   mapConfig: map,
   messages: {
+    de: deMessages,
     en: enMessages,
     fr: frMessages
   },

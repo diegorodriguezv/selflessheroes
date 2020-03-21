@@ -1,4 +1,5 @@
 import map from './map404.json'
+import deMessages from './level404-messages-de.json'
 import enMessages from './level404-messages-en.json'
 import frMessages from './level404-messages-fr.json'
 
@@ -32,9 +33,11 @@ const tookWrongEggCondition = {
 const level = {
   mapConfig: map,
   messages: {
+    de: deMessages,
     en: enMessages,
     fr: frMessages
   },
+
 
   maxStep: 200,
   speedTarget: 32,

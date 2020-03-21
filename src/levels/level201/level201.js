@@ -1,4 +1,5 @@
 import map from './map201.json'
+import deMessages from './level201-messages-de.json'
 import enMessages from './level201-messages-en.json'
 import frMessages from './level201-messages-fr.json'
 
@@ -75,6 +76,7 @@ const displacedEggLossCondition = {
 const level = {
   mapConfig: map,
   messages: {
+    de: deMessages,
     en: enMessages,
     fr: frMessages
   },

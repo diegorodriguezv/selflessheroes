@@ -1,4 +1,5 @@
 import map from './map213.json'
+import deMessages from './level213-messages-de.json'
 import enMessages from './level213-messages-en.json'
 import frMessages from './level213-messages-fr.json'
 
@@ -13,6 +14,7 @@ const winCondition = {
 const level = {
   mapConfig: map,
   messages: {
+    de: deMessages,
     en: enMessages,
     fr: frMessages
   },

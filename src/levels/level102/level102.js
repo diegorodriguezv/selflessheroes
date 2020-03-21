@@ -1,4 +1,5 @@
 import map from './map102.json'
+import deMessages from './level102-messages-de.json'
 import enMessages from './level102-messages-en.json'
 import frMessages from './level102-messages-fr.json'
 
@@ -35,9 +36,11 @@ const multipleEggsInCauldronLossCondition = {
 const level = {
   mapConfig: map,
   messages: {
+    de: deMessages,
     en: enMessages,
     fr: frMessages
   },
+
 
   maxStep: 400,
   speedTarget: 29,

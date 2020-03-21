@@ -1,10 +1,12 @@
 import map from './map007.json'
+import deMessages from './level007-messages-de.json'
 import enMessages from './level007-messages-en.json'
 import frMessages from './level007-messages-fr.json'
 
 const level = {
   mapConfig: map,
   messages: {
+    de: deMessages,
     en: enMessages,
     fr: frMessages
   },

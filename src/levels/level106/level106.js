@@ -1,4 +1,5 @@
 import map from './map106.json'
+import deMessages from './level106-messages-de.json'
 import enMessages from './level106-messages-en.json'
 import frMessages from './level106-messages-fr.json'
 
@@ -33,6 +34,7 @@ const notMaximumEggLossCondition = {
 const level = {
   mapConfig: map,
   messages: {
+    de: deMessages,
     en: enMessages,
     fr: frMessages
   },
